@@ -1,6 +1,6 @@
 # BraTS Tumour Segmentation
 
-This repository contains code for building and evaluating machine learning models that segment tumour regions in brain MRI scans. The project focuses on developing and comparing different loss functions, and exploring the potential of unsupervised pretraining using unlabelled data.
+This repository contains code for building and evaluating machine learning models that segment tumour regions in brain MRI scans. The project focuses on developing and comparing different loss functions and exploring the potential of unsupervised pretraining using unlabelled data.
 
 The research evaluates Convolutional Neural Networks (CNNs) and U-Net architectures for tumour segmentation in MRIs of glioma patients. The modelling process is structured into three main phases:
 
@@ -19,7 +19,7 @@ This research is divided across four notebooks which are intended to be read in 
 
 The segmentation task is treated as a multi-class classification problem, where each pixel is assigned to one of four classes: healthy brain tissue or one of three tumour subregions.
 
-A summary of the project, results, and visualisations is also included in the accompanying poster.
+A summary of the work is also included in the accompanying poster.
 
 ## References
 
