@@ -4,9 +4,9 @@ This repository contains code for building and evaluating machine learning model
 
 The research evaluates Convolutional Neural Networks (CNNs) and U-Net architectures for tumour segmentation in MRIs of glioma patients. The modelling process is structured into three main phases:
 
-1. **Exploration of loss functions**
-2. **Comparison of network architectures**
-3. **Fine-tuning with unsupervised pretraining**
+1. Exploration of loss functions
+2. Comparison of network architectures
+3. Fine-tuning with unsupervised pretraining
 
 ## Project Structure
 
@@ -14,7 +14,7 @@ This research is divided across four notebooks which are intended to be read in 
 
 * `0_Problem_Formulation_&_Data_Preprocessing`: Introduces the dataset and defines the segmentation problem.
 * `1_Phase_1_Baseline_Model_&_Loss_Functions`: Implements a baseline CNN and evaluates multiple loss functions.
-* `2_Phase_2_Architectures`: Experiments with architectural variants including U-Net.
+* `2_Phase_2_Architectures`: Experiments with architectures.
 * `3_Phase_3_Unsupervised_Pretraining,_Fine_Tuning_&_Test_Set_Evaluation`: Introduces pretraining on unlabelled data and evaluates final model performance on the test set.
 
 The segmentation task is treated as a multi-class classification problem, where each pixel is assigned to one of four classes: healthy brain tissue or one of three tumour subregions.
