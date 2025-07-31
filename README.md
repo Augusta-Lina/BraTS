@@ -2,7 +2,7 @@
 
 This repository contains code for building and evaluating machine learning models that segment tumour regions in brain MRI scans. The project focuses on developing and comparing different loss functions, and exploring the potential of unsupervised pretraining using unlabelled data.
 
-The research evaluates Convolutional Neural Networks (CNNs) and U-Net architectures for tumour segmentation in MRIs of glioma patients. The modelling process is structured in three main phases:
+The research evaluates Convolutional Neural Networks (CNNs) and U-Net architectures for tumour segmentation in MRIs of glioma patients. The modelling process is structured into three main phases:
 
 1. **Exploration of loss functions**
 2. **Comparison of network architectures**
@@ -10,7 +10,7 @@ The research evaluates Convolutional Neural Networks (CNNs) and U-Net architectu
 
 ## Project Structure
 
-The project is implemented across four Jupyter notebooks, intended to be read in sequence:
+This research is divided across four notebooks which are intended to be read in order:
 
 * `0_Problem_Formulation_&_Data_Preprocessing`: Introduces the dataset and defines the segmentation problem.
 * `1_Phase_1_Baseline_Model_&_Loss_Functions`: Implements a baseline CNN and evaluates multiple loss functions.
